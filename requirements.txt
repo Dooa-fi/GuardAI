@@ -1,0 +1,11 @@
+# Core dependencies for drone detection system
+ultralytics>=8.4.0
+opencv-python>=4.13.0
+pygame>=2.6.0
+streamlit>=1.49.0
+numpy>=2.3.0
+pandas>=2.3.0
+pillow>=11.3.0
+
+# Note: boxmot removed due to dependency conflicts
+# Using custom simple tracker instead
